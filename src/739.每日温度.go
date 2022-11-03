@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func dailyTemperatures(temperatures []int) []int {
 	res := make([]int, len(temperatures))
 	stk := []int{}
@@ -19,6 +17,6 @@ func dailyTemperatures(temperatures []int) []int {
 	return res
 }
 
-func main() {
-	fmt.Println(dailyTemperatures([]int{89, 62, 70, 58, 47, 47, 46, 76, 100, 70}))
-}
+//func main() {
+//	fmt.Println(dailyTemperatures([]int{89, 62, 70, 58, 47, 47, 46, 76, 100, 70}))
+//}
