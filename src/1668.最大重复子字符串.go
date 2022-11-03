@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func maxRepeating(sequence, word string) (ans int) {
 	n, m := len(sequence), len(word)
 	if n < m {
@@ -23,6 +21,6 @@ func maxRepeating(sequence, word string) (ans int) {
 	return
 }
 
-func main() {
-	fmt.Println(maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba", "aaaba"))
-}
+//func main() {
+//	fmt.Println(maxRepeating("aaabaaaabaaabaaaabaaaabaaaabaaaaba", "aaaba"))
+//}
