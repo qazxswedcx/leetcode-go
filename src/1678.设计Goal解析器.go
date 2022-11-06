@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func interpret(command string) string {
 	res := ""
 	for i := 0; i < len(command); i++ {
@@ -21,6 +19,6 @@ func interpret(command string) string {
 	return res
 }
 
-func main() {
-	fmt.Println(interpret("(al)G(al)()()G"))
-}
+//func main() {
+//	fmt.Println(interpret("(al)G(al)()()G"))
+//}
